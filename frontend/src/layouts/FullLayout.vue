@@ -75,14 +75,7 @@
               :icon="link.icon"
             />
           </div>
-          <div class="row justify-center">
-            <q-btn
-              label="Donate"
-              :icon="mdiPiggyBank"
-              color="orange-5"
-              @click="clickDonate"
-            />
-          </div>
+
         </q-card-section>
       </q-card>
 
