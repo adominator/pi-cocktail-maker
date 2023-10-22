@@ -88,9 +88,7 @@ export default {
       }]
     }
   },
-  created () {
-    this.mdiPiggyBank = mdiPiggyBank
-  },
+
 
 }
 </script>
