@@ -247,13 +247,7 @@ export default {
     }
   },
   methods: {
-    ...mapMutations({
-      setShowDonateDialog: 'common/setShowDonateDialog',
-      openExternalLink: 'common/openExternalLink'
-    }),
-    clickDonate () {
-      this.setShowDonateDialog(true)
-    },
+
     handleResize () {
       this.windowWidth = window.innerWidth
       if (this.windowWidth > this.desktopModeBreakPoint) {
