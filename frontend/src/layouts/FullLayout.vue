@@ -213,12 +213,7 @@ export default {
 
     }
   },
-  created () {
-    window.addEventListener('resize', this.handleResize)
-    this.handleResize()
-    this.mdiChevronRight = mdiChevronRight
-    this.mdiPiggyBank = mdiPiggyBank
-  },
+
   unmounted () {
     window.removeEventListener('resize', this.handleResize)
   },
