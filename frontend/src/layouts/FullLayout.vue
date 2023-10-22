@@ -210,17 +210,7 @@ export default {
           ]
         }
       ],
-      projectLinks: [{
-        icon: mdiGithub,
-        link: 'https://github.com/alex9849/pi-cocktail-maker/'
-      }, {
-        icon: mdiLinkedin,
-        link: 'https://www.linkedin.com/in/alexander-liggesmeyer/'
-      }, {
-        icon: mdiWeb,
-        link: 'https://alexander.liggesmeyer.net/'
-      }
-      ]
+
     }
   },
   created () {

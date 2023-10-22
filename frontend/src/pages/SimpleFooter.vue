@@ -91,11 +91,7 @@ export default {
   created () {
     this.mdiPiggyBank = mdiPiggyBank
   },
-  methods: {
-    ...mapMutations({
-      setShowDonateDialog: 'common/setShowDonateDialog'
-    })
-  }
+
 }
 </script>
 

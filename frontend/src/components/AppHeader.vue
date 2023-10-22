@@ -3,7 +3,7 @@
     <q-toolbar>
       <slot name="left" />
       <q-toolbar-title>
-        CocktailMaker
+        BlackCube
       </q-toolbar-title>
 
       <div>
